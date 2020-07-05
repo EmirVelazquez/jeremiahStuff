@@ -1,8 +1,31 @@
 body {
     background-color: rgb(61, 168, 79);
+    color: #ffffff;
 }
 
 #mainTitle {
     background-color: darkblue;
+    color: yellow;
     font-size: 200px;
+}
+
+#box {
+    display: flex;
+    justify-content: flex-end;
+    margin: 200px auto 200px auto;
+    background-color: tomato;
+    width: 250px;
+    height: 250px;
+}
+
+#childOfBox {
+    background-color: teal;
+    width: 20px;
+    height: 20px;
+}
+
+#childOfBox2 {
+    background-color: pink;
+    width: 20px;
+    height: 20px;
 }
